@@ -2,7 +2,10 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+background-color: gray;
 }
+
+
 
 .top{
     background-color: #B36050;
