@@ -2,10 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: gray;
 }
-
-
 
 .top{
     background-color: #B36050;
@@ -24,7 +21,6 @@ background-color: gray;
     padding-left: 200px;
     list-style: none;
     display: flex;
-    justify-content: left;
     gap: 25px;
 
 }
@@ -42,7 +38,7 @@ background-color: gray;
 .nav-right{
     gap: 25px;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     margin-top: -35px;
     padding-right: 50px;
 }
@@ -207,10 +203,6 @@ padding-left: 97px;
     margin-top: 30px;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-  }
   
   footer {
     background-color: #f9f5ee;
@@ -220,7 +212,7 @@ body {
   }
   
   .footer-container {
-    display: flex;
+    display: flex;  
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
@@ -281,10 +273,9 @@ body {
   }
   
   .footer-bottom {
-    background-color: #EE4248;
     text-align: center;
     margin-top: 20px;
-    border-top: 1px solid #e1dcd5;
+    border-top: 2px solid #e1dcd5;
     padding-top: 10px;
   }
   
